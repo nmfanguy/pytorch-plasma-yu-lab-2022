@@ -89,6 +89,8 @@ class Linear(Module):
             self.register_parameter('bias', None)
         self.reset_parameters()
 
+        #print("WE HAVE EDITED PYTORCH BABY")
+
     def reset_parameters(self) -> None:
         # Setting a=sqrt(5) in kaiming_uniform is the same as initializing with
         # uniform(-1/sqrt(in_features), 1/sqrt(in_features)). For details, see

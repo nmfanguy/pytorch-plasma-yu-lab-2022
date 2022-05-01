@@ -1,6 +1,6 @@
 from .modules import *  # noqa: F403
 from .parameter import Parameter, UninitializedParameter, UninitializedBuffer
-from .parallel import DataParallel
+from .parallel import DataParallel, PlasmaParallel
 from . import init
 from . import utils
 
